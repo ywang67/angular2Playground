@@ -9,6 +9,7 @@ import {
   OnDestroy, ViewChild, ElementRef,
   ContentChild
 } from '@angular/core';
+import {element} from "protractor";
 
 @Component({
   selector: 'app-server-element',

@@ -32,6 +32,7 @@ export class CockpitComponent implements OnInit {
     }
   }
 
+
   onAddBlueprint(serverName: HTMLInputElement) {
     if(serverName.value=='' || this.serverContent.nativeElement.value==''){
       this.blueprintCreated.emit({serverName: 'Error Message', serverContent: 'Please enter some information!'})
